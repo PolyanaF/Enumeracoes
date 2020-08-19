@@ -1,0 +1,11 @@
+//ENUM: PALAVRA CHAVE EM JAVA
+
+package entities.enums;
+
+public enum OrderStatus {
+	
+	PENDING_PAYMENT,	//AGUARDANADO PAGAMENTO
+	PROCESSING,			//PROCESSANDO
+	SHIPPED,			//ENVIADO
+	DELIVERED,			//ENTREGUE
+}
